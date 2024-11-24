@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  /* background: linear-gradient(135deg, #cf9aff, #fb95ff); */
+  color: #fff;
+  padding-top: 4%;
+  padding-left: 10%;
+}
+.container h1 {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+.container h1 img {
+  width: 60px;
+}
+.container button img {
+  width: 25px;
+  margin-right: 8px;
+}
+.container button {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#c40dd4, #571094);
+  color: #fff;
+  font-size: 16px;
+  outline: 0;
+  border: 0;
+  border-radius: 40px;
+  padding: 15px 25px;
+  margin: 30px 0 20px;
+}
+.input-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background: #fff;
+  color: #000000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 20px;
+  margin: 20px;
+  outline: none;
+  border-radius: 5px;
+  cursor: text;
+
+  border-radius: 30px;
+}
+.input-box img {
+  width: 25px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+/* .notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 15px; 
+  gap: 10px; 
+  padding: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.note {
+  flex: 1 1 48%;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #f1f0f7;
+  border-radius: 15px; 
+  background-color: #f75aba;
+  margin-bottom: 20px; 
+} */
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 15px;
+  gap: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note {
+  flex: 1 1 0%;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #f1f0f7;
+  border-radius: 35%;
+  background-color: #f75aba;
+}
+body {
+  background-image: url("images/bgg.png");
+  background-size: cover; /* Cover the entire background area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
